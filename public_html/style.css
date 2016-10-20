@@ -1,3 +1,73 @@
+body {
+	background-image: url("pretty-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 p{
 	color: red;
+}
+
+.first-word-bold {
+	font-weight: bold;
+	color: darkblue;
+}
+
+thead th {
+	font-size: 20px;
+	border: groove 1px;
+	padding: .5em
+}
+
+#top-row th {
+	font-size: 24px;
+	color: white;
+}
+
+
+td, th {
+	padding: 1em;
+}
+
+th {
+	background-color: #666666;
+	text-align: left;
+}
+
+td {
+	border: 1px solid black;
+}
+
+caption {
+	font-size: 28px;
+}
+
+th#first-box {
+	background-color: transparent;
+	color: black;
+	text-transform: uppercase;
+}
+
+#yes {
+	background-color: lawngreen;
+}
+
+#no {
+	background-color: red;
+}
+
+p {
+	color: white;
+	text-shadow: 1px 1px #000;
+}
+
+a:active {
+	color: lawngreen;
+}
+
+.box1 h2 {
+	border-style: dashed;
+	border-color: lawngreen;
+	border-width: 5px;
+	background-image: url("whiteflowers_tile.jpg");
 }
